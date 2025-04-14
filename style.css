@@ -58,12 +58,12 @@ body{
 .content--name h2,
 .content--name span {
     font-size: 1.2rem;
-    display: inline-block; /* Treat both elements as block-level but inline */
+    display: inline-block;
 }
 
 .content--name span {
-    color: var(--dark-gray); /* Optional: Add a color for the age */
-    margin-left: 8px; /* Add spacing between name and age */
+    color: var(--dark-gray); 
+    margin-left: 8px; 
 }
 .location{
     font-size: 0.9rem;
@@ -89,12 +89,11 @@ body{
     margin-bottom: 0px;
 }
 
-    hr {
-        color: var(--dark-gray);
-        height: 1px; /* Set the thickness of the hr */
-        border: none; /* Remove any default border styling */
-        background-color: var(--dark-gray); /* Ensure the color is applied */
-    }
+hr {
+    height: 1px; 
+    border: none; 
+    background-color: var(--dark-gray); 
+}
 
 
 
