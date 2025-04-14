@@ -12,7 +12,8 @@ body{
     height: 100vh;
     background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
     background-repeat: no-repeat, no-repeat;
-    background-position: top 0 left 0, bottom 0 right 0;
+    background-position: top -50px left -50px, bottom 0 right 0;
+    background-size:350px,350px;
     font-family: "Kumbh Sans", sans-serif;
 }
 
