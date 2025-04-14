@@ -12,6 +12,8 @@ body{
     height: 100vh;
     background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
     background-repeat: no-repeat, no-repeat;
+    /* background-position: right 50vw bottom 50vh, left 50vw top 50vh; */
+
     background-position: top -330px left -150px, bottom -360px right -150px;
     background-size:750px,750px;
     /* background-size: contain, contain; */
@@ -100,7 +102,7 @@ hr {
 
 
 
-/* Media Queries */
+
  @media (max-width: 1050px) {
     body{
         background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
@@ -154,7 +156,12 @@ hr {
         background-size: contain, contain;
     }
 
-} 
+}  
+
+
+Best Idea without using media queries:
+
+
 
 
 

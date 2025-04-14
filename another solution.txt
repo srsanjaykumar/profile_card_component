@@ -1,0 +1,18 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+
+    /* background-position: top -330px left -150px, bottom -360px right -150px; */
+    /* background-size:750px,750px; */
+    /* background-size: contain, contain; */
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: var(--dark-cyan);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
