@@ -14,11 +14,121 @@ body{
     background-repeat: no-repeat, no-repeat;
     background-position: top -330px left -150px, bottom -360px right -150px;
     background-size:750px,750px;
+    /* background-size: contain, contain; */
     font-family: "Kumbh Sans", sans-serif;
     background-color: var(--dark-cyan);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
+.card{
+    max-width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
 
+.card__image{
+    position: relative;
+}
+
+.bg-pattern{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+   
+}
+.avatar{
+    position: absolute;
+    top: 75px;
+    left: 34%;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+.card__content{
+    padding: 50px 0px 0px 0px;
+}
+
+.content--name {
+    text-align: center;
+}
+
+.content--name h2,
+.content--name span {
+    font-size: 1.2rem;
+    display: inline-block; /* Treat both elements as block-level but inline */
+}
+
+.content--name span {
+    color: var(--dark-gray); /* Optional: Add a color for the age */
+    margin-left: 8px; /* Add spacing between name and age */
+}
+.location{
+    font-size: 0.9rem;
+    color: var(--dark-grayish-blue);
+    margin: 0px auto 30px;
+}
+
+.content--socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 20px 10px 15px;
+}
+
+.content--socials p{
+    font-size: 0.8rem;
+    color: var(--dark-grayish-blue);
+    margin-top: 4px;
+}
+.content--socials h2{
+    font-size: 1.2rem;
+    color: var(--very-dark-desaturated-blue);
+    margin-bottom: 0px;
+}
+
+    hr {
+        color: var(--dark-gray);
+        height: 1px; /* Set the thickness of the hr */
+        border: none; /* Remove any default border styling */
+        background-color: var(--dark-gray); /* Ensure the color is applied */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media(max-width: 768px) {
+    body{
+        background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+        background-position: top -150px left -50px, bottom -150px right -50px;
+        background-size: contain    , contain;
+    }
+}
+@media(max-width: 375px) {
+    body{
+        background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+        background-position: top -100px left -50px, bottom -100px right -50px;
+        background-size: contain    , contain;
+    }
+}
+@media(max-width: 320px) {
+    body{
+        background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+       background-position: contain, contain;
+        background-position: top -50px left -50px, bottom -50px right -50px;
+    }
+}    */
 
 
 
